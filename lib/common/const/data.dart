@@ -12,4 +12,3 @@ final simulatorIp = '127.0.0.1:3000';
 final ipIos = Platform.isIOS ? simulatorIp : emulatorIp;
 final ipAndroid = Platform.isAndroid ? simulatorIp : emulatorIp;
 
-final storage = FlutterSecureStorage();

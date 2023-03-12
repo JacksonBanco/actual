@@ -8,9 +8,9 @@ class DefaultLayout extends StatelessWidget {
 
   const DefaultLayout({
     required this.child,
-    required this.backgroundColor,
-    required this.title,
-    required this.bottomNavigationBar,
+    this.backgroundColor,
+    this.title,
+    this.bottomNavigationBar,
     Key? key}) : super(key: key);
 
   @override
